@@ -1,0 +1,11 @@
+create-react-app
+
+react로 앱 어플리케이션을 개발하는 데 필요한 모든 설정이 되어 있는 상태로 
+프로젝트를 생성해주는 도구.
+
+npx - execute npm package binaries
+npx create-react-app <your-project-name>
+
+# 어플리케이션 실행
+npm start
+
