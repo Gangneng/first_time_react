@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
 
 // Chapter 3
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,7 @@ import CommentList from './chapter_05/CommentList';
 //   </React.StrictMode>
 // );
 
-// Chpater 4
+// Chapter 4
 // setInterval(() => {
 //   ReactDOM.render(
 //     <React.StrictMode>
@@ -26,9 +27,18 @@ import CommentList from './chapter_05/CommentList';
 //   );
 // }, 1000);
 
+// Chapter 5
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+// Chapter 6
 ReactDOM.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>,
   document.getElementById('root')
 );
