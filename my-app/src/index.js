@@ -7,6 +7,15 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chpater_03/Library';
 import Clock from './chpater_04/Clock';
 
+// Chapter 3
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <Library />
+//   </React.StrictMode>
+// );
+
+// Chpater 4
 setInterval(() => {
   ReactDOM.render(
     <React.StrictMode>
