@@ -8,6 +8,7 @@ import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
+import Accommodate from './chapter_07/Accommodate';
 
 // Chapter 3
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,12 +37,20 @@ import NotificationList from './chapter_06/NotificationList';
 // );
 
 // Chapter 6
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+// Chapter 7
 ReactDOM.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate/>
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
